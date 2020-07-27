@@ -1,3 +1,10 @@
 {
-  "plugins": ["react-intl"]
+  "plugins": [
+    [
+      "react-intl-auto",
+      {
+        "extractFromFormatMessageCall": true
+      }
+    ]
+  ]
 }
