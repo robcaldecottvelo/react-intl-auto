@@ -1,9 +1,10 @@
 {
   "plugins": [
     [
-      "react-intl-auto",
+      "react-intl",
       {
-        "extractFromFormatMessageCall": true
+        "extractFromFormatMessageCall": true,
+        "idInterpolationPattern": "[sha512:contenthash:hex:6]"
       }
     ]
   ]
